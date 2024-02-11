@@ -21,9 +21,7 @@ public class MyServlet2 extends HttpServlet {
 		out.println("<html>");
 		out.println("<head><title>Cual es tú nombre</title></head>");
 		out.println("<body>");
-		out.println("Nombre:" + request.getParameter("vNombre"));
-		out.println("<br><br>");
-		out.println("Apellidos:" + request.getParameter("vApellido"));
+		out.println("Su nombre es:" + request.getParameter("vNombre"));
 		out.println("</body>");
 		out.println("</html>");
 	}
